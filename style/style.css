@@ -1,0 +1,139 @@
+@font-face {
+    src : url(font/Pacifico-Regular.ttf);
+    font-family: pacifico;
+}
+/* Basic set up */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: sans-serif;
+}
+li{
+    list-style: none;
+    display: inline-block;
+}
+a{
+    text-decoration: none;
+}
+.container{
+    max-width: 1400px;
+    margin: 0 auto;
+    background-color: #fff;
+}
+
+
+/*-----------------------
+     Header Set up 
+-------------------------*/
+
+body{
+    background-color: #fbfbfb;
+}
+.page-header{
+    background-color: #222f3e;
+    color: #fff;
+    font-family: cursive;
+    padding-left: 70px;
+}
+
+.page-header span{
+    margin-left: 5px;
+    color: #1dd1a1;
+    font-family: cursive;
+}
+
+
+/*-----------------------
+        nav-manu
+-------------------------*/
+
+.nav-manu{
+    text-align: center;
+    background-color: #fafafa;
+    text-transform: uppercase;
+}
+
+.nav-manu a{
+    color: #ccc;
+}
+
+.nav-manu a:hover{
+    color: #222f3e;
+}
+.nav-manu a li{
+    padding: 20px; 
+}
+
+/*-----------------------
+       header-image
+-------------------------*/
+.header-image{
+    background-image: url(../img/h1.jpg);
+    height: 500px;
+    display: flex;
+    background-repeat: no-repeat;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    color: #fff;
+}
+.header-image h1{
+    text-transform: uppercase;
+    font-weight: 300;
+    font-size: 36px;
+}
+.header-image p{
+    margin: 20px 170px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 20px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
